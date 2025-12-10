@@ -91,11 +91,17 @@ Ambos os modelos alcançaram alta acurácia no conjunto de teste.
 A MobileNetV2 demonstrou excelente relação entre eficiência e desempenho, sendo adequada para implementações em campo.
 A ResNet50 apresentou métricas superiores em cenários com maior complexidade visual, servindo como baseline robusto.
 
+
+
+
 🚀 Potencial de Expansão
 
 O Conilon Dataset foi projetado para ser expandido, permitindo:
 
 inclusão de novas classes de doenças e pragas
+
 ampliação do número de imagens por classe
+
 uso em novas tarefas, como detecção em tempo real e segmentação
+
 Assim, além de atender aos objetivos do estudo original, o dataset se consolida como uma base aberta, em evolução, capaz de impulsionar pesquisas futuras em visão computacional aplicada à cafeicultura.
