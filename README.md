@@ -14,10 +14,14 @@ Características principais
 
 Imagens capturadas em campo real, contemplando:
 
-diferentes condições de iluminação
-múltiplos ângulos de captura
-variações fenológicas das plantas
-distintos níveis de severidade das doenças/pragas
+- Diferentes condições de iluminação
+
+- Múltiplos ângulos de captura
+
+- Variações fenológicas das plantas
+
+- Distintos níveis de severidade das doenças/pragas
+
 Rotulagem realizada com base em critérios técnicos, reduzindo ambiguidades sem comprometer a variabilidade natural.
 
 Organização seguindo boas práticas da literatura:
@@ -28,7 +32,7 @@ val/
 
 test/
 
-conforme utilizado nos experimentos do estudo.
+
 
 O dataset também se diferencia de bases consolidadas como ROCOLE e LiCoLe, que são voltadas majoritariamente para Coffea arabica, não refletindo adequadamente as particularidades fisiológicas e fitossanitárias do café conilon.
 
@@ -38,15 +42,18 @@ O pipeline de treinamento adotado neste projeto segue um fluxo padronizado e rep
 
 1. Pré-processamento das imagens
 
-Redimensionamento para tamanho compatível com as arquiteturas utilizadas
-Normalização por canal
+- Redimensionamento para tamanho compatível com as arquiteturas utilizadas
+
+- Normalização por canal
 
 Aumento de dados (data augmentation):
 
-rotação
-flips horizontais/verticais
-variação de brilho e contraste
-Essas operações reduziram overfitting e aumentaram a capacidade de generalização.
+- Rotação
+
+- Flips horizontais/verticais
+
+- Variação de brilho e contraste
+
 
 2. Organização dos conjuntos
 
@@ -56,29 +63,31 @@ Validação: 15%
 
 Teste: 15%
 
-Proporções definidas para garantir avaliação confiável e não enviesada.
+(Proporções definidas para garantir avaliação confiável e não enviesada.)
 
 3. Estratégia de treinamento
 
-Frameworks utilizados: PyTorch
+- Frameworks utilizados: PyTorch
 
-Otimizador: Adam e SGD
-Critério de perda: Cross-Entropy
-Early stopping para evitar sobreajuste
-Learning rate scheduling para treinos estáveis
+- Otimizador: Adam e SGD
+
+- Critério de custo: Cross-Entropy
+
+- Early stopping para evitar sobreajuste
+
 
 🤖 Modelos Treinados
 
 Diferentes arquiteturas de redes neurais profundas foram avaliadas a fim de identificar o melhor equilíbrio entre desempenho, custo computacional e aplicabilidade prática.
 
-Modelos avaliados
+Modelos avaliados: 
 
-MobileNetV2 
+- MobileNetV2 
 
 Focada no baixo custo computacional
 Ideal para aplicações em dispositivos embarcados
 
-ResNet50
+- ResNet50
 
 Modelo mais profundo, com maior capacidade de extração de características
 Utilizado como referência comparativa de desempenho
