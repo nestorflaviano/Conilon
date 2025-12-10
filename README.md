@@ -23,7 +23,9 @@ Rotulagem realizada com base em critérios técnicos, reduzindo ambiguidades sem
 Organização seguindo boas práticas da literatura:
 
 train/
+
 val/
+
 test/
 
 conforme utilizado nos experimentos do estudo.
@@ -49,14 +51,16 @@ Essas operações reduziram overfitting e aumentaram a capacidade de generaliza�
 2. Organização dos conjuntos
 
 Treinamento: 70% das imagens
+
 Validação: 15%
+
 Teste: 15%
 
 Proporções definidas para garantir avaliação confiável e não enviesada.
 
 3. Estratégia de treinamento
 
-Frameworks utilizados: PyTorch (ajusto conforme seu projeto real)
+Frameworks utilizados: PyTorch
 
 Otimizador: Adam e SGD
 Critério de perda: Cross-Entropy
