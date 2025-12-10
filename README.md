@@ -6,7 +6,7 @@ O Conilon Dataset foi desenvolvido exclusivamente para este projeto com o objeti
 
 Diante dessa lacuna, o Conilon Dataset emerge como uma contribuição inédita e estratégica para pesquisas de visão computacional aplicadas à cafeicultura, especialmente no segmento do conilon, ainda sub-representado na literatura.
 
-📸 # Estrutura do Dataset
+# 📸 Estrutura do Dataset
 
 O dataset foi organizado considerando consistência visual, diversidade e representatividade, garantindo condições adequadas para treinamento robusto de modelos de aprendizado profundo.
 
@@ -36,7 +36,7 @@ test/
 
 O dataset também se diferencia de bases consolidadas como ROCOLE e LiCoLe, que são voltadas majoritariamente para Coffea arabica, não refletindo adequadamente as particularidades fisiológicas e fitossanitárias do café conilon.
 
-🧠 # Pipeline de Treinamento
+# 🧠 Pipeline de Treinamento
 
 O pipeline de treinamento adotado neste projeto segue um fluxo padronizado e replicável, desde o pré-processamento das imagens até a avaliação dos modelos.
 
@@ -76,7 +76,7 @@ Teste: 15%
 - Early stopping para evitar sobreajuste
 
 
-🤖 # Modelos Treinados
+# 🤖 Modelos Treinados
 
 Diferentes arquiteturas de redes neurais profundas foram avaliadas a fim de identificar o melhor equilíbrio entre desempenho, custo computacional e aplicabilidade prática.
 
@@ -103,7 +103,7 @@ A ResNet50 apresentou métricas superiores em cenários com maior complexidade v
 
 
 
-🚀 # Potencial de Expansão
+# 🚀 Potencial de Expansão
 
 O Conilon Dataset foi projetado para ser expandido, permitindo:
 
